@@ -43,6 +43,7 @@ ul, li {
 
 
 .jumbotrone {
+    position: relative;
     margin: 20px 0;
     border-radius: 10px;
     height: 500px;
@@ -50,7 +51,6 @@ ul, li {
 }
 
 .image-jumbo {
-    /* background-image: url(../img/banner.jpg); */
     background-size: cover;
     background-position: center;
     background-image: 
@@ -61,12 +61,17 @@ ul, li {
     url(../img/banner.jpg);
 }
 
-.opacity {
+.container-title {
+color: white;
 }
 
-.container-title {
-    color: white;
+.position {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
 }
+
 
 /* MAIN */
 
