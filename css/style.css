@@ -67,11 +67,6 @@ ul, li {
 .col {
     margin-top: 20px;
     border-radius: 10px;
-    /* padding: 0 20px; */
-
-    /* TODO: remove*/
-    /* background-color: darkgreen;
-    height: 500px; */
 }
 
 .w25 {
@@ -88,14 +83,19 @@ ul, li {
     height: 280px;
     /* width: 100%; */
     border-radius: 10px;
-    background-color: #CCCCCC;
 }
 
 .banner {
     height: 280px;
-    width: 400px;
-    border-radius: 10px;
-    background-color: #CCCCCC;  
+    width: 600px;
+    border-radius: 10px; 
+}
+
+.img-right {
+    height: 280px;
+    width: 300px;
+    margin: 0px auto;
+    text-align:center;
 }
 
 /* FOOTER */
