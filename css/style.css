@@ -99,6 +99,20 @@ ul, li {
     background-image: url(../img/img-3.jpg);
 }
 
+.img-col {
+    height: 40%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-central {
+    background-image: url(../img/banner-2.jpg);
+}
+
+h4, p {
+    margin: 20px 0;
+}
+
 /* FOOTER */
 
 footer {
