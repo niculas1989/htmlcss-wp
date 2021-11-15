@@ -53,6 +53,21 @@ ul, li {
 
 .image-jumbo {
     background-image: url(../img/banner.jpg);
-    /* width: 800px; */
     background-size: cover;
+    text-align: center;
 }
+
+/* MAIN */
+
+.leadership {
+    margin: 0 20px;
+}
+
+.col {
+    border-radius: 10px;
+
+    /* TODO: remove*/
+    background-color: darkgreen;
+    height: 500px;
+}
+
