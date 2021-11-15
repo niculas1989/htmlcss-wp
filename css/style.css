@@ -83,3 +83,17 @@ ul, li {
     width: 50%;
 }
 
+.img-left {
+    height: 280px;
+    /* width: 100%; */
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+
+.banner {
+    height: 280px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #CCCCCC;  
+}
+
