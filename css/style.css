@@ -15,10 +15,6 @@
     margin: 0 auto;
 }
 
-.opacity {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5));
-}
 
 /* Header */
 
@@ -54,9 +50,18 @@ ul, li {
 }
 
 .image-jumbo {
-    background-image: url(../img/banner.jpg);
+    /* background-image: url(../img/banner.jpg); */
     background-size: cover;
     background-position: center;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/banner.jpg);
+}
+
+.opacity {
 }
 
 .container-title {
@@ -91,24 +96,41 @@ ul, li {
     width: 100%;
     background-position: center center;
     background-size: cover;
+    border-radius: 10px;;
 }
 .img-left {
-    background-image: url(../img/img-1.jpg);
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/img-1.jpg);
 }
 
 .img-right {
-    background-image: url(../img/img-3.jpg);
-}
-
-.img-col {
-    height: 160px;
-    width: 100%;
-    background-position: center center;
-    background-size: cover;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/img-3.jpg);
+    }
+    
+    .img-col {
+        height: 160px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 10px;
 }
 
 .img-central {
-    background-image: url(../img/banner-2.jpg);
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/banner-2.jpg);
 }
 
 h4, p {
