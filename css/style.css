@@ -64,10 +64,22 @@ ul, li {
 }
 
 .col {
+    margin-top: 20px;
     border-radius: 10px;
+    padding: 0 20px;
 
     /* TODO: remove*/
     background-color: darkgreen;
     height: 500px;
+}
+
+.w25 {
+    float: left;
+    width: calc(25% - 20px);
+}
+
+.w50 {
+    float: left;
+    width: calc(50% - 20px);
 }
 
