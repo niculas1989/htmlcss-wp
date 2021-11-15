@@ -46,15 +46,16 @@ ul, li {
     border-radius: 10px;
     height: 500px;
     width: 100%;
-    
-    /* TODO= REMOVE */
-    /* background-color:#E0D77A; */
 }
 
 .image-jumbo {
     background-image: url(../img/banner.jpg);
     background-size: cover;
-    text-align: center;
+    background-position: center;
+}
+
+.container-title {
+    color: white;
 }
 
 /* MAIN */
