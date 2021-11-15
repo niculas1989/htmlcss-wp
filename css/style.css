@@ -69,7 +69,6 @@ color: white;
     position: absolute;
     bottom: 20px;
     left: 20px;
-    
 }
 
 
@@ -86,14 +85,14 @@ color: white;
 
 .w25 {
     float: left;
-    width: 25%;
-    /* height: 400px; */
+    width: calc(25% - 10px);
+    padding:20px;
 }
 
 .w50 {
     float: left;
-    width: 50%;
-    /* height: 400px; */
+    width: calc(50% - 10px);
+    padding:20px;
 }
 
 .img-sidebar {
