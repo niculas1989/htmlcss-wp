@@ -44,14 +44,15 @@ ul, li {
 .jumbotrone {
     margin: 20px 0;
     border-radius: 10px;
+    height: 500px;
+    width: 100%;
     
     /* TODO= REMOVE */
-    height: 500px;
     /* background-color:#E0D77A; */
 }
 
 .image-jumbo {
     background-image: url(../img/banner.jpg);
+    /* width: 800px; */
     background-size: cover;
-    background-repeat: no-repeat;
 }
