@@ -71,11 +71,25 @@ color: white;
     left: 20px;
 }
 
+.leadership h1 {
+    font-weight: 100;
+}
+
+.leadership h3 {
+    font-size: 12px;
+    font-weight: none;
+    color: #858585;
+}
+
 
 /* MAIN */
 
 .leadership {
     margin: 0 20px;
+}
+
+.leadership h1 {
+    font-weight: 500;
 }
 
 .col {
